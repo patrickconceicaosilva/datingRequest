@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(252, 162, 177);
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    cursor: default;
+}
+
+.bt {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#simbt:hover {
+    transform: scale(1.050);
+}
+
+button {
+    padding: 8px;
+    background-color: rgb(218, 117, 134);
+    border: 2px solid black;
+    outline: none;
+    border-radius: 15px;
+    width: 115px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
